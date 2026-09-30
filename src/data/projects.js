@@ -11,7 +11,6 @@ export const projects = [
     github: "https://github.com/shindeprem160205",
     live: "#",
   },
-
   {
     number: "02",
     title: "Pharmacy Management System",
@@ -22,18 +21,16 @@ export const projects = [
     github: "#",
     live: "#",
   },
-
-  
-    {
-  number: "03",
-  title: "Business Sales Analytics",
-  category: "Data Analytics / Power BI",
-  description:
-    "An interactive business analytics dashboard built with Python and Power BI to analyze sales performance, customer behavior, and business risk.",
-  technologies: ["Python", "Pandas", "Power BI"],
-  github:
-    "https://github.com/shindeprem160205/Business-Sales-Analytics-and-Customer-Risk-Dashboard-using-Python-and-Power-BI",
-  live: "#",
-  image: businessDashboard,
-},
+  {
+    number: "03",
+    title: "Business Sales Analytics",
+    category: "Data Analytics / Power BI",
+    description:
+      "An interactive business analytics dashboard built with Python and Power BI to analyze sales performance, customer behavior, and business risk.",
+    technologies: ["Python", "Pandas", "Power BI"],
+    github:
+      "https://github.com/shindeprem160205/Business-Sales-Analytics-and-Customer-Risk-Dashboard-using-Python-and-Power-BI",
+    live: "#",
+    image: businessDashboard,
+  },
 ]

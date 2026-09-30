@@ -4,8 +4,7 @@ const Contact = () => {
       id="contact"
       className="border-t border-[#d6d2ca] px-6 py-28 md:px-10 md:py-40"
     >
-      <div className="mx-auto max-w-350">
-
+      <div className="mx-auto max-w-[1400px]">
         <div className="flex items-center justify-between font-mono text-xs uppercase tracking-[0.18em] text-[#77736c]">
           <span>Contact / 05</span>
           <span>Let's connect</span>
@@ -20,7 +19,6 @@ const Contact = () => {
         </div>
 
         <div className="mt-20 grid gap-10 border-t border-[#d6d2ca] pt-8 md:grid-cols-12">
-
           <div className="md:col-span-5">
             <p className="max-w-md text-lg leading-8 text-[#77736c]">
               Have an opportunity, project or just want to connect?
@@ -30,7 +28,7 @@ const Contact = () => {
 
           <div className="md:col-span-5 md:col-start-8">
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:shindeprem.160205@gmail.com"
               className="group flex items-center justify-between border-b border-[#171717] pb-4 text-lg"
             >
               <span>Email me</span>
@@ -52,18 +50,17 @@ const Contact = () => {
             </a>
 
             <a
-  href="https://www.linkedin.com/in/prem-shinde-407170245"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="group mt-6 flex items-center justify-between border-b border-[#d6d2ca] pb-4 text-lg"
->
-  <span>LinkedIn</span>
-  <span className="transition-transform duration-300 group-hover:translate-x-2">
-    ↗
-  </span>
-</a>    
+              href="https://www.linkedin.com/in/prem-shinde-407170245"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mt-6 flex items-center justify-between border-b border-[#d6d2ca] pb-4 text-lg"
+            >
+              <span>LinkedIn</span>
+              <span className="transition-transform duration-300 group-hover:translate-x-2">
+                ↗
+              </span>
+            </a>
           </div>
-
         </div>
       </div>
     </section>

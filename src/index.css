@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+}
 
 :root {
   --bg: #f2f0eb;
@@ -17,7 +22,7 @@ body {
   margin: 0;
   background: #f2f0eb;
   color: #171717;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-sans);
 }
 
 ::selection {
@@ -207,60 +212,6 @@ a {
   .projects-title,
   .projects-description,
   .projects-list {
-    animation: none;
-    opacity: 1;
-    transform: none;
-  }
-}
-.skills-fade,
-.skills-description,
-.skills-list > div {
-  opacity: 0;
-  animation: skillsFadeUp 0.8s ease-out forwards;
-}
-
-.skills-fade {
-  animation-delay: 0.1s;
-}
-
-.skills-title {
-  opacity: 0;
-  animation: skillsTitleReveal 1s cubic-bezier(0.22, 1, 0.36, 1) 0.2s forwards;
-}
-
-.skills-description {
-  animation-delay: 0.35s;
-}
-
-@keyframes skillsFadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(25px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes skillsTitleReveal {
-  from {
-    opacity: 0;
-    transform: translateY(45px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .skills-fade,
-  .skills-title,
-  .skills-description,
-  .skills-list > div {
     animation: none;
     opacity: 1;
     transform: none;
